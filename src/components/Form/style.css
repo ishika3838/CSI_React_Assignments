@@ -1,0 +1,54 @@
+.container {
+    background-color: white;
+    border: 2px solid #ccc;
+   /* Reduced top padding */
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    height: auto;
+  }
+  
+  .container h1 {
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  .container label {
+    color: black;
+    font-size: 0.9rem;
+  }
+  
+  .container .form-field {
+    margin-bottom: 8px; /* Reduce margin for smaller gap */
+  }
+  
+  .container input,
+  .container select {
+    width: calc(100% - 20px); /* Adjust width to fit container minus padding */
+    padding: 6px; /* Adjust padding for shorter height */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.8rem; /* Reduce font size for smaller height */
+  }
+  
+  .container button {
+    width: calc(100% - 20px); /* Adjust width to fit container minus padding */
+    background-color: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+  }
+  
+  .container button:hover {
+    background-color: #7f00ff;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+  }
+  
